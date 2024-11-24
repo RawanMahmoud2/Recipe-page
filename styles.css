@@ -110,3 +110,56 @@ img {
     text-align: left;
     color: #7A463A;
 }
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .main-wrapper {
+        padding: 10px;
+    }
+
+    .recipe-card {
+        padding: 15px;
+    }
+
+    .Nutrition table td {
+        padding: 8px 10px;
+        font-size: 0.9rem;
+    }
+
+    .recipe-container {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .main-wrapper {
+        padding: 5px;
+    }
+
+    .recipe-card {
+        padding: 10px;
+    }
+
+    .Nutrition table td {
+        padding: 6px 8px;
+        font-size: 0.8rem;
+    }
+
+    .recipe-container {
+        padding: 10px;
+    }
+}
