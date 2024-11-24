@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: #F3E5D8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h1 {
+    color: #333130;
+    font-weight: 700;
+    
+}
+
+h2 {
+    color: #7A463A;
+    font-weight: 700;
+    
+}
+
+ol,
+ul {
+    color: #5D5855;
+}
+
+p {
+    color: #74716E;
+    font-weight: 400;
+    
+}
+
+.recipe-container {
+    background-color: white;
+}
+
+.Preparation-time {
+    background-color: #FFF7FC;
+    color: #5D544F;
+}
+
+h3 {
+    color: #813F5C;
+}
+
+img {
+    width: 100%;
+    border-radius: 16px 16px 0 0;
+}
+
+.main-wrapper {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.recipe-card {
+    background-color: white;
+    border-radius: 16px;
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.Nutrition {
+    margin-top: 20px;
+}
+
+.Nutrition h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #7A463A;
+}
+
+.Nutrition table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.Nutrition table tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.Nutrition table tr:last-child {
+    border-bottom: none;
+}
+
+.Nutrition table td {
+    padding: 12px 20px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.Nutrition table td:first-child {
+    font-weight: bold;
+    color: #615F5B;
+}
+
+.Nutrition table td:last-child {
+    text-align: left;
+    color: #7A463A;
+}
